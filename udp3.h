@@ -1,8 +1,7 @@
-//
-// Created by Sanket Koirala on 8/5/23.
-//
 
-#ifndef CHATAPP_UDP3_H
-#define CHATAPP_UDP3_H
+#include <stdbool.h>
 
-#endif //CHATAPP_UDP3_H
+bool sendUdpData(const char ipv4Address[], int port, const char str[]);
+bool openUdpListenerPort(int port);
+bool receiveUdpData(char str[], int str_length, int timeout_us);
+void closeUdpListenerPort(void);
