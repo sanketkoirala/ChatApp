@@ -1,8 +1,4 @@
-//
-// Created by Sanket Koirala on 8/5/23.
-//
+#include <stdbool.h>
 
-#ifndef CHATAPP_KBHIT_H
-#define CHATAPP_KBHIT_H
+bool kbhit(void);
 
-#endif //CHATAPP_KBHIT_H
